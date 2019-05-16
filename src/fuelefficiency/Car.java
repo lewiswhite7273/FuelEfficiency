@@ -18,7 +18,7 @@ public class Car extends Vehicle{
     
      public double getDistance(double lit){
          litres = lit;
-         double calc = 100/19.4;
+         double calc = 100/9.4;
          double finals = calc*litres;
          return finals;
     }
